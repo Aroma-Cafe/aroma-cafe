@@ -1,0 +1,120 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    background-color: #fff8f0;
+    color: #333;
+}
+
+/* Header con imagen de fondo */
+header {
+    position: relative;
+    height: 480px;
+    background: url("../css/aroma\ cafe.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+/* Overlay difuminado */
+header .overlay {
+    background-color: rgba(0, 0, 0, 0.15);
+    color: white;
+    text-align: center;
+    padding: px 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #d9a066;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+h2 {
+    color: #6b4226;
+    border-bottom: 2px solid #d9a066;
+    padding-bottom: 5px;
+}
+
+.producto {
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #fdf2e9;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #6b4226;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+/* Flecha/Mano */
+footer .flecha {
+    font-size: 28px;
+    margin: 10px 0;
+    color: #fff;
+}
+
+/* WhatsApp */
+footer .whatsapp {
+    display: inline-block;
+    margin-top: 0px;
+    text-decoration: none;
+    color: #25d366;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer .whatsapp i {
+    margin-right: 9px;
+    font-size: 22px;
+}
+#pagos {
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    background-color: #fdf2e9;
+    border-top: 2px solid #d9a066;
+}
+
+#pagos h2 {
+    color: #6b4226;
+    margin-bottom: 15px;
+}
+
+.metodos-pago {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.logo-pago {
+    height: 20px; /* tamaño uniforme */
+    transition: transform 0.3s;
+}
+
+.logo-pago:hover {
+    transform: scale(1.1); /* efecto al pasar el mouse */
+}
